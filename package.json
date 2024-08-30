@@ -1,0 +1,42 @@
+{
+  "name": "npm-lib-starter",
+  "version": "0.0.0",
+  "description": "library项目的启动脚手架",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "leon",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "esm"
+  ],
+  "keywords": [
+    "starter",
+    "npm",
+    "library"
+  ],
+  "homepage": "https://github.com/missmess/npm-lib-starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missmess/npm-lib-starter.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@typescript-eslint/eslint-plugin": "7.2.0",
+    "@typescript-eslint/parser": "7.2.0",
+    "eslint": "^8.57.0",
+    "rollup": "^4.21.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  }
+}
