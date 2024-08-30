@@ -9,21 +9,27 @@ export default [
     input: "src/index.ts",
     output: [
       {
-        dir: "esm",
+        file: pkg.module,
         format: "esm",
-        name: pkg.name,
+        sourcemap: true,
       },
       {
-        dir: "dist",
+        file: pkg.main,
+        format: "cjs",
+        sourcemap: true,
+      },
+      {
+        file: pkg.browser,
         format: "umd",
         name: pkg.name,
+        sourcemap: true,
+        plugins: [terser()],
       },
     ],
     plugins: [
       typescript({
         tsconfig: "./tsconfig.build.json",
       }),
-      terser(),
     ],
   },
   {

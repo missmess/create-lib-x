@@ -4,6 +4,7 @@
   "description": "library项目的启动脚手架",
   "main": "dist/index.js",
   "module": "esm/index.js",
+  "browser": "dist/npm-lib.umd.min.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c"
