@@ -1,6 +1,6 @@
 import { Add, Exp } from "./types";
 
-export function add(a, b): Add {
+export const add: Add = (a, b) => {
   return a + b;
 }
 
