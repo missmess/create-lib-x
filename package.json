@@ -1,6 +1,6 @@
 {
   "name": "create-lib-x",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "🛠️ The recommended way to start a Rollup-based library project",
   "type": "module",
   "main": "executable.cjs",
