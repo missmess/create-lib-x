@@ -7,5 +7,5 @@
 To create a new library project, simply run the following command in your terminal:
 
 ```shell
-npx create-lib-x
+npm create lib-x@latest
 ```
