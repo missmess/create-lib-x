@@ -2,6 +2,10 @@
 
 🛠️ The recommended way to start a Rollup-based library project.
 
+<p align="center">
+  <img width="898" alt="Screenshot from terminal" src="https://github.com/missmess/create-lib-x/blob/main/snapshot/snapshot-1.png?raw=true">
+</p>
+
 ### Usage
 
 To create a new library project, simply run the following command in your terminal:
