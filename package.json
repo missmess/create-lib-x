@@ -1,42 +1,50 @@
 {
-  "name": "npm-lib-starter",
-  "version": "0.0.0",
-  "description": "library项目的启动脚手架",
-  "main": "dist/index.js",
-  "module": "esm/index.js",
-  "browser": "dist/npm-lib.umd.min.js",
-  "types": "dist/index.d.ts",
+  "name": "create-lib-x",
+  "version": "0.1.0",
+  "description": "🛠️ The recommended way to start a Rollup-based library project",
+  "type": "module",
+  "main": "executable.cjs",
+  "bin": {
+    "create-lib-x": "executable.cjs"
+  },
   "scripts": {
     "build": "rollup -c"
   },
-  "author": "leon",
-  "license": "ISC",
+  "author": "Leon Wang <478271233@qq.com>",
+  "license": "MIT",
   "files": [
-    "dist",
-    "esm"
+    "template",
+    "locales",
+    "executable.cjs"
   ],
   "keywords": [
     "starter",
     "npm",
+    "rollup",
+    "creator",
     "library"
   ],
-  "homepage": "https://github.com/missmess/npm-lib-starter",
+  "homepage": "https://github.com/missmess/create-lib-x",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/missmess/npm-lib-starter.git"
+    "url": "git+https://github.com/missmess/create-lib-x.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {},
   "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.9.0",
+    "@types/prompts": "^2.4.9",
     "@typescript-eslint/eslint-plugin": "7.2.0",
     "@typescript-eslint/parser": "7.2.0",
     "eslint": "^8.57.0",
+    "husky": "^9.1.6",
+    "kleur": "^4.1.5",
+    "prompts": "^2.4.2",
     "rollup": "^4.21.1",
-    "rollup-plugin-dts": "^6.1.1",
     "tslib": "^2.7.0",
     "typescript": "^5.5.4"
   }

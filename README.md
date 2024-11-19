@@ -1,13 +1,11 @@
-# npm-lib-starter
+# create-lib-x <a href="https://npmjs.com/package/create-lib-x"><img src="https://badgen.net/npm/v/create-lib-x" alt="npm package"></a> <a href="https://nodejs.org/en/about/previous-releases"><img src="https://img.shields.io/node/v/create-lib-x" alt="node compatibility"></a>
 
-这个项目用于开发需要发布到npm的库，这是它的启动模版。
+🛠️ The recommended way to start a Rollup-based library project.
 
-### 使用
+### Usage
+
+To create a new library project, simply run the following command in your terminal:
 
 ```shell
-npx degit missmess/npm-lib-starter [my-library-dir]
+npx create-lib-x
 ```
-
-### 仓库
-
-https://github.com/missmess/npm-lib-starter

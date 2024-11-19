@@ -1,0 +1,38 @@
+{
+  "name": "npm-lib-x",
+  "version": "0.0.1",
+  "description": "This is a npm library project",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "browser": "dist/npm-lib.umd.min.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Leon",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "esm"
+  ],
+  "keywords": [
+    "starter",
+    "npm",
+    "library"
+  ],
+  "homepage": "https://github.com/missmess/npm-lib-x",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missmess/npm-lib-x.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.21.1",
+    "rollup-plugin-dts": "^6.1.1"
+  }
+}

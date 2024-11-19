@@ -1,0 +1,29 @@
+{
+  "projectName": {
+    "message": "Project name:"
+  },
+  "needsTypeScript": {
+    "message": "Add TypeScript?"
+  },
+  "needsEslint": {
+    "message": "Add ESLint for code quality?"
+  },
+  "author": {
+    "message": "Author:"
+  },
+  "gitRepository": {
+    "message": "Git repository:"
+  },
+  "errors": {
+    "operationCancelled": "Operation cancelled"
+  },
+  "defaultToggleOptions": {
+    "active": "Yes",
+    "inactive": "No"
+  },
+  "infos": {
+    "scaffolding": "Scaffolding project in...",
+    "dirExisted": "Target directory existed, content will be overwritten",
+    "done": "Done. Just start developing!"
+  }
+}
